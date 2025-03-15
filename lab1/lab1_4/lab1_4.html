@@ -13,7 +13,7 @@
 		<p>Элемент <code>img</code> внедряет изображение в текущий документ в месте определения элемента. Элемент <code>img</code> не имеет содержимого — он замещается на ходу изображением, указанным в атрибуте <code>src</code>.</p>
 
         <figure>
-            <img src="images/aquaria.jpg" src="изображение 1">
+            <img src="images/aquaria.jpg">
             <figcaption>изображение 1: черепашка</figcaption>
         </figure>
 
@@ -32,12 +32,17 @@
         </p>
 
         <figure>
-            <img src="images/mushroom.jpg" alt="изображение 3" width="400" height="300">
+            <img src="images/mushroom.jpg">
+            <figcaption>изображение 3.0: пример изображения без атрибутов.</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/mushroom.jpg" width="400" height="300">
             <figcaption>изображение 3.1: пример изображения с атрибутами <code>width</code> и <code>height</code>.</figcaption>
         </figure>
       
         <figure>
-            <img src="images/mushroom.jpg" alt="изображение 3" width="500">
+            <img src="images/mushroom.jpg" width="500">
             <figcaption>изображение 3.2: пример изображения с атрибутом <code>width</code>.</figcaption>
         </figure>
 
@@ -73,6 +78,16 @@
 		найдено не будет, то будет выбран файл, указанный  атрибутом  <code>src</code> элемента <code>img</code>. 
 		Затем выбранное изображение отображается в пространстве, занятом элементом <code>img</code>. 
 		</p>
+
+        <figure>
+            <picture>
+              <source media="(max-width: 400px)" srcset="images/slon.png">
+              <source media="(min-width: 401px)" srcset="images/slon.png">
+              <img src="images/slon.png">
+            </picture>
+            <figcaption> изображение 6: пример изображения с атрибутами <code>picture</code>.</figcaption>
+          </figure>
+
 	</section>
 </body>
 </html>
