@@ -1,35 +1,44 @@
 body {
     font-family: Arial;
     margin: 20px;
-    background-color: rgba(125, 140, 204, 0.3);
+    background-color: #dbeafe;
+    color: #1b2631; 
 }
+
 form {
     max-width: 400px;
-    margin-right: 0;
+    background: white;
+    padding: 20px;
+    border-radius: 12px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
+
 label {
     display: block;
     margin-top: 10px;
+    font-weight: bold;
 }
-input[type="text"], input[type="email"], input[type="password"], textarea {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-}
+
 input[type="radio"], input[type="checkbox"] {
     margin-right: 10px;
 }
+
 button {
-    padding: 10px 20px;
-    margin-right: 10px;
-    background-color: #26358d;
+    padding: 12px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #5a8ccf; 
     color: white;
     cursor: pointer;
+    font-size: 16px;
 }
+
 button[type="reset"] {
-    background-color: #25116e;
+    background-color: #4666a5; 
 }
+
 button:hover {
-    opacity: 0.8;
+    background-color: #3b6ea5;
+    transform: scale(1.05);
 }
