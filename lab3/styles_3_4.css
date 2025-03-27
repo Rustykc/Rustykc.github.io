@@ -1,0 +1,44 @@
+body {
+    background-image: url('images3/mountains_favicon.jpg');
+    background-size: 650px;
+    font-family: Arial, sans-serif;
+    color: #2C3E50;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #1565C0;
+}
+
+strong {
+    font-family: 'Caveat', cursive;
+    font-size: 1.2em;
+    color: #0277BD;
+}
+
+article {
+    background: rgba(227, 242, 253, 0.9);
+    border: 3px solid #42A5F5;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+article h1 {
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background: #42A5F5;
+    margin: 30px 0;
+}
