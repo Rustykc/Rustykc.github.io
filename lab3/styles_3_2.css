@@ -10,8 +10,7 @@ p {
     text-align: right;
 }
 
-h1,
-h2 {
+h1, h2 {
     text-align: right;
     font-family: Arial, sans-serif;
     color: red;
