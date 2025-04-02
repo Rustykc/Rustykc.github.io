@@ -9,32 +9,33 @@
             box-sizing: border-box;
         }
 
+        section {
+            display: inline-block;
+            margin: 0 1.5%;
+            width: 30%;
+            /* vertical-align: top; */
+        }
+
         #left {
             width: 200px;
-            float: left;
             background: #ccf;
-            padding: 10px;
         }
 
         #right {
             width: 200px;
-            float: right;
             background: #fcc;
-            padding: 10px;
         }
 
         #center {
-            margin-left: 600px;
-            margin-right: 210px;
+            /* margin-left: 600px;
+            margin-right: 210px; */
             background: #cfc;
-            padding: 10px;
         }
     </style>
 </head>
 
 <body>
     <div id="left">left<br>left<br>left<br>left<br>left</div>
-    <div id="right">right<br>right<br>right<br>right</div>
     <div id="center">center text text text text text text text text text text text text text text text text text text
         text text text text text text text text text text text text text text text text text text text text text text
         text text text text text text text text text text text text text text text text text text text text text text
@@ -50,6 +51,7 @@
         text text text text text text text text text text text text text text text text text text text text text text
         text text text text text text text text text text text text text text text
     </div>
+    <div id="right">right<br>right<br>right<br>right</div>
 </body>
 
 </html>
