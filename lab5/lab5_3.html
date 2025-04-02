@@ -3,55 +3,72 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Использование float при построении колонок</title>
+    <title>Использование inline-block при построении колонок</title>
     <style>
         * {
             box-sizing: border-box;
         }
 
-        section {
-            display: inline-block;
-            margin: 0 1.5%;
-            width: 30%;
-            /* vertical-align: top; */
+        body {
+            margin: 0;
+            text-align: center;
+        }
+
+        .container {
+            text-align: left;
+            font-size: 0;
+            display: block;
         }
 
         #left {
             width: 200px;
             background: #ccf;
+            display: inline-block;
+            vertical-align: top;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        #center {
+            width: 600px;
+            background: #cfc;
+            display: inline-block;
+            vertical-align: top;
+            padding: 10px;
+            font-size: 16px;
         }
 
         #right {
             width: 200px;
             background: #fcc;
-        }
-
-        #center {
-            /* margin-left: 600px;
-            margin-right: 210px; */
-            background: #cfc;
+            display: inline-block;
+            vertical-align: top;
+            padding: 10px;
+            font-size: 16px;
         }
     </style>
 </head>
 
 <body>
-    <div id="left">left<br>left<br>left<br>left<br>left</div>
-    <div id="center">center text text text text text text text text text text text text text text text text text text
-        text text text text text text text text text text text text text text text text text text text text text text
-        text text text text text text text text text text text text text text text text text text text text text text
-        text text text text text text text text text text text text text text text text text text text text text text
-        text text text text text text text text text text text text text text text text text text text text text text
-        text text text text text text text text text text text text text text text text text text text text text text
-        text text text text text text text text text text text text text text text text text text text text text text
-        text text text text text text text text text text text text text text text text text text text text text text
-        text text text text text text text text text text text text text text text text text text text text text text
-        text text text text text text text text text text text text text text text text text text text text text text
-        text text text text text text text text text text text text text text text text text text text text text text
-        text text text text text text text text text text text text text text text text text text text text text text
-        text text text text text text text text text text text text text text text text text text text text text text
-        text text text text text text text text text text text text text text text
+    <div class="container">
+        <div id="left">left<br>left<br>left<br>left<br>left</div>
+        <div id="center">center text text text text text text text text text text text text text text text text text
+            text text text text text text text text text text text text text text text text text text text text text
+            text text text text text text text text text text text text text text text text text text text text text
+            text text text text text text text text text text text text text text text text text text text text text
+            text text text text text text text text text text text text text text text text text text text text text
+            text text text text text text text text text text text text text text text text text text text text text
+            text text text text text text text text text text text text text text text text text text text text text
+            text text text text text text text text text text text text text text text text text text text text text
+            text text text text text text text text text text text text text text text text text text text text text
+            text text text text text text text text text text text text text text text text text text text text text
+            text text text text text text text text text text text text text text text text text text text text text
+            text text text text text text text text text text text text text text text text text text text text text
+            text text text text text text text text text text text text text text text text text text text text text
+            text text text text text text text text text text text text text text text text text text text text text
+            text text text text text text text text text text text text text text text </div>
+        <div id="right">right<br>right<br>right<br>right</div>
     </div>
-    <div id="right">right<br>right<br>right<br>right</div>
 </body>
 
 </html>
