@@ -19,27 +19,24 @@
 
         .container {
             display: grid;
-            grid-template-columns: 1fr 600px 1fr;
+            grid-template-columns: 1fr minmax(300px, 600px) 1fr;
             width: 100%;
             height: 100vh;
         }
 
         #left {
             background: #ccf;
-            height: 100%;
             padding: 10px;
         }
 
         #center {
-            width: 600px;
             background: #cfc;
-            height: 100%;
             padding: 10px;
+            font-size: 16px;
         }
 
         #right {
             background: #fcc;
-            height: 100%;
             padding: 10px;
         }
     </style>
